@@ -1,0 +1,68 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4802036848561617367
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8384779353251298709}
+  - component: {fileID: 6255153015848343753}
+  m_Layer: 0
+  m_Name: TowerGeneration
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8384779353251298709
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4802036848561617367}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.5, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6255153015848343753
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4802036848561617367}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 435844ee4f25257458f2447eb49bb828, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerPrefab: {fileID: 5306464458751890040, guid: 520ef983a4c027e44a362b158f5e1616, type: 3}
+  player: {fileID: 0}
+  cornerModules:
+  - {fileID: 8821967444069749023, guid: 695aa324382b37c4a9ad72b80d35157f, type: 3}
+  cornerSteps:
+  - {fileID: 8821967444069749023, guid: 37236bcf6562c154e8032a0f6698a61e, type: 3}
+  faceModules:
+  - {fileID: 8821967444069749023, guid: 7a1e94660e26d4c439912f9712337a29, type: 3}
+  - {fileID: 8821967444069749023, guid: 516c0075ad518ad4bbf0ad9ec0b2adfd, type: 3}
+  puzzleIn:
+  - {fileID: 8821967444069749023, guid: e1695c04e1a84c8489fb4c1191708f85, type: 3}
+  puzzleOut:
+  - {fileID: 8821967444069749023, guid: afb52b1fdd57072459c75bed8c88d8fd, type: 3}
+  roofModules:
+  - {fileID: 49761272332157033, guid: 7f2412d4c4e3502459375bd8d4122415, type: 3}
+  - {fileID: 9056659943508710619, guid: b15d2af6e0713ad479e24b1714cb9ad0, type: 3}
+  puzzleGenInput: []
+  puzzleGenOutput: []
+  isInputGen: 
+  isOutputGen: 
+  isConstructed: 0
+  testCount: 0
